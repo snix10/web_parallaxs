@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    min-height: auto;
+    background-color: black;
+    overflow-x: hidden;
+   
+    
+}
+
+section{
+    position: relative;
+    
+}
+section img{
+    position: absolute;
+    
+    
+}
+
+section img#train{
+    transform: translateX(700px);
+}
+@media screen and (max-width:1000px){
+    section img#train{
+        transform: translateX(210px)
+
+} }
+section img#train2{
+    transform: translateX(1900px);
+}
+@media screen and (max-width:1000px){
+    section img#train2{
+        transform: translateX(900px)
+
+} }
+#moon {
+    z-index: 1;
+}
+
+.section2 {
+    position: relative;
+   
+}
+.section2 img{
+    position: absolute;
+    
+}
+#bahasa1 {
+    transform: translateX(600px);
+}
+#kereta {
+    transform: translateX(-1000px);
+}
+.text{
+    color: white;
+   text-align: center;
+}
+
+.hover-zoom {height: 250px; overflow: hidden; position:relative}
+.hover-zoom {height: 250px; overflow: hidden; position:relative}
+.hover-zoom img {transition: transform .3s ease;}
+.hover-zoom:hover img {transform: scale(2);}
+
+
+footer{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    padding-top: 50px;
+    
+}
