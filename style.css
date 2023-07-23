@@ -1,24 +1,23 @@
-*
-{
-    padding: 0;
-    margin: 0;
 
-}
+
 body {
     min-height: auto;
     background-color: black;
     overflow-x: hidden;
    
     
+   
+    
 }
 
 section{
     position: relative;
+   
     
 }
 section img{
     position: absolute;
-    
+    overflow-x: hidden;
     
 }
 
@@ -32,6 +31,7 @@ section img#train{
 } }
 section img#train2{
     transform: translateX(1900px);
+    overflow-x: hidden;
 }
 @media screen and (max-width:1000px){
     section img#train2{
@@ -48,7 +48,7 @@ section img#train2{
 }
 .section2 img{
     position: absolute;
-    
+    overflow-x: hidden;
 }
 #bahasa1 {
     transform: translateX(600px);
