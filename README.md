@@ -1,4 +1,4 @@
-https://snix10.github.io/web_parallaxs/
+# https://snix10.github.io/web_parallaxs/
 
 web yang saya buat, efek parallax, direkomendasikan mode dekstop device laptop atau pc.
 dengan menggunakan html,css,javascript.
